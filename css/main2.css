@@ -1,0 +1,23 @@
+.p-3 {
+  padding: $spacer !important;
+}
+
+body{
+  margin: auto;
+  max-width: 500px;
+}
+
+
+@media screen and (max-width: 660px){
+  body{
+    margin: 10px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 585px){
+  body{
+    margin: 10px;
+    max-width: 300px;
+  }
+}
